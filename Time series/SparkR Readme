@@ -1,0 +1,13 @@
+Dear Professor and TAs, here is the ReadMe for timeseries analysis of DC crime rate data:
+
+1. Install R studio in your system.
+
+2. Open the dataframe.R file in your R studio. Change addresses in all lines with relevant address (line 21: spark home, 31: data directory, all write.csv directories according to whatever you seem fit, 93: directory containing the app.
+
+3. All read.csv directories in the server.R file inside App-1 folder should be changed to wherever write.csv were made in step 2 for those files.
+
+4. Make sure Hadoop and Hbase are running.
+
+5. Run all the lines of dataframe.R on R studio to generate the output.
+
+6. Run Shiny at the end of dataframe.R to generate interactive front end.
